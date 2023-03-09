@@ -4175,6 +4175,17 @@ public class Gen3RomHandler extends AbstractGBRomHandler {
         } else if (tweak == MiscTweak.BAN_LUCKY_EGG) {
             allowedItems.banSingles(Gen3Items.luckyEgg);
             nonBadItems.banSingles(Gen3Items.luckyEgg);
+        } else if (tweak == MiscTweak.BAN_FLUTES) {
+            allowedItems.banSingles(Gen3Items.yellowFlute);
+            nonBadItems.banSingles(Gen3Items.yellowFlute);
+            allowedItems.banSingles(Gen3Items.redFlute);
+            nonBadItems.banSingles(Gen3Items.redFlute);
+            allowedItems.banSingles(Gen3Items.whiteFlute);
+            nonBadItems.banSingles(Gen3Items.whiteFlute);
+            allowedItems.banSingles(Gen3Items.blueFlute);
+            nonBadItems.banSingles(Gen3Items.blueFlute);
+            allowedItems.banSingles(Gen3Items.blackFlute);
+            nonBadItems.banSingles(Gen3Items.blackFlute);
         } else if (tweak == MiscTweak.RANDOMIZE_PC_POTION) {
             randomizePCPotion();
         } else if (tweak == MiscTweak.RUN_WITHOUT_RUNNING_SHOES) {

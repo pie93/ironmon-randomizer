@@ -206,6 +206,8 @@ public class NewRandomizerGUI {
     private JCheckBox miscLowerCasePokemonNamesCheckBox;
     private JCheckBox miscRandomizeCatchingTutorialCheckBox;
     private JCheckBox miscBanLuckyEggCheckBox;
+
+    private JCheckBox miscBanFlutesCheckBox;
     private JCheckBox miscNoFreeLuckyEggCheckBox;
     private JCheckBox miscBanBigMoneyManiacCheckBox;
     private JPanel pokemonAbilitiesPanel;
@@ -2657,6 +2659,9 @@ public class NewRandomizerGUI {
         miscBanLuckyEggCheckBox.setVisible(true);
         miscBanLuckyEggCheckBox.setEnabled(false);
         miscBanLuckyEggCheckBox.setSelected(false);
+        miscBanFlutesCheckBox.setVisible(true);
+        miscBanFlutesCheckBox.setEnabled(false);
+        miscBanFlutesCheckBox.setSelected(false);
         miscNoFreeLuckyEggCheckBox.setVisible(true);
         miscNoFreeLuckyEggCheckBox.setEnabled(false);
         miscNoFreeLuckyEggCheckBox.setSelected(false);
