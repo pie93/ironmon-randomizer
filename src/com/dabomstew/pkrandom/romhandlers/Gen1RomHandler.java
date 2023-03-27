@@ -2111,7 +2111,7 @@ public class Gen1RomHandler extends AbstractGBCRomHandler {
         if (romEntry.getValue("CatchingTutorialMonOffset") != 0) {
             available |= MiscTweak.RANDOMIZE_CATCHING_TUTORIAL.getValue();
         }
-
+        available |= MiscTweak.FORCE_ENCOUNTERS_TO_HIGHEST_LEVEL.getValue();
         return available;
     }
 
